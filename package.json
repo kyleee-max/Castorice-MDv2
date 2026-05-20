@@ -8,7 +8,7 @@
     "start": "node index_castorice.js"
   },
   "author": "KaelSenpai",
-  "license": "MIT",
+  "license": "LICENSE",
   "dependencies": {
     "@google/genai": "^1.49.0",
     "@hapi/boom": "^10.0.0",
