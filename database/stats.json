@@ -1,0 +1,80 @@
+{
+  "_info": "Mutsumi MD Game Stats Database - Kaelsenpai © 2025-2026",
+  "users": {
+    "628386859765@s.whatsapp.net": {
+      "koin": 19780,
+      "xp": 94,
+      "level": 2,
+      "rank": "🌱 Shosha",
+      "streak": 1,
+      "lastDaily": 1778015436356,
+      "stats": {
+        "win": 4,
+        "loss": 1,
+        "draw": 0,
+        "totalGame": 5
+      },
+      "createdAt": 1778011613250
+    },
+    "6283113032309@s.whatsapp.net": {
+      "koin": 0,
+      "xp": 0,
+      "level": 1,
+      "rank": "🌱 Shosha",
+      "streak": 0,
+      "lastDaily": null,
+      "stats": {
+        "win": 0,
+        "loss": 0,
+        "draw": 0,
+        "totalGame": 0
+      },
+      "createdAt": 1778015520345
+    },
+    "6285781270038@s.whatsapp.net": {
+      "koin": 10267,
+      "xp": 101,
+      "level": 2,
+      "rank": "🌱 Shosha",
+      "streak": 1,
+      "lastDaily": 1778032226577,
+      "stats": {
+        "win": 1,
+        "loss": 0,
+        "draw": 0,
+        "totalGame": 1
+      },
+      "createdAt": 1778032218354
+    },
+    "6285888866150@s.whatsapp.net": {
+      "koin": 100,
+      "xp": 20,
+      "level": 1,
+      "rank": "🌱 Shosha",
+      "streak": 1,
+      "lastDaily": 1778335402276,
+      "stats": {
+        "win": 0,
+        "loss": 0,
+        "draw": 0,
+        "totalGame": 0
+      },
+      "createdAt": 1778335402276
+    },
+    "62882019414421@s.whatsapp.net": {
+      "koin": 0,
+      "xp": 0,
+      "level": 1,
+      "rank": "🌱 Shosha",
+      "streak": 0,
+      "lastDaily": null,
+      "stats": {
+        "win": 0,
+        "loss": 0,
+        "draw": 0,
+        "totalGame": 0
+      },
+      "createdAt": 1778401428760
+    }
+  }
+}

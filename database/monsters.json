@@ -1,0 +1,43 @@
+{
+  "_info": "Mutsumi MD RPG — Monster Database | Isekai no Tobira",
+  "monsters": {
+    "F": [
+      { "id": "slime", "name": "Slime", "emoji": "🟢", "hp": 30, "atk": 5, "def": 2, "xp": 15, "koin": 10 },
+      { "id": "goblin", "name": "Goblin", "emoji": "👺", "hp": 40, "atk": 8, "def": 3, "xp": 20, "koin": 15 },
+      { "id": "bat", "name": "Giant Bat", "emoji": "🦇", "hp": 25, "atk": 10, "def": 1, "xp": 18, "koin": 12 },
+      { "id": "rat", "name": "Giant Rat", "emoji": "🐀", "hp": 35, "atk": 6, "def": 2, "xp": 16, "koin": 10 }
+    ],
+    "E": [
+      { "id": "orc", "name": "Orc", "emoji": "👹", "hp": 80, "atk": 15, "def": 8, "xp": 40, "koin": 30 },
+      { "id": "wolf", "name": "Dire Wolf", "emoji": "🐺", "hp": 70, "atk": 18, "def": 5, "xp": 38, "koin": 28 },
+      { "id": "skeleton", "name": "Skeleton", "emoji": "💀", "hp": 60, "atk": 12, "def": 10, "xp": 35, "koin": 25 },
+      { "id": "harpy", "name": "Harpy", "emoji": "🦅", "hp": 65, "atk": 20, "def": 4, "xp": 42, "koin": 32 }
+    ],
+    "D": [
+      { "id": "troll", "name": "Troll", "emoji": "🧌", "hp": 150, "atk": 28, "def": 15, "xp": 80, "koin": 60 },
+      { "id": "golem", "name": "Stone Golem", "emoji": "🗿", "hp": 200, "atk": 20, "def": 30, "xp": 90, "koin": 70 },
+      { "id": "mermaid", "name": "Dark Mermaid", "emoji": "🧜", "hp": 130, "atk": 35, "def": 10, "xp": 85, "koin": 65 },
+      { "id": "minotaur", "name": "Minotaur", "emoji": "🐂", "hp": 180, "atk": 32, "def": 18, "xp": 88, "koin": 68 }
+    ],
+    "C": [
+      { "id": "wyvern", "name": "Wyvern", "emoji": "🐉", "hp": 300, "atk": 50, "def": 25, "xp": 150, "koin": 120 },
+      { "id": "vampire", "name": "Vampire Lord", "emoji": "🧛", "hp": 280, "atk": 55, "def": 20, "xp": 160, "koin": 130 },
+      { "id": "golem_fire", "name": "Fire Golem", "emoji": "🔥", "hp": 320, "atk": 45, "def": 35, "xp": 145, "koin": 115 }
+    ],
+    "B": [
+      { "id": "dragon", "name": "Elder Dragon", "emoji": "🐲", "hp": 500, "atk": 80, "def": 45, "xp": 280, "koin": 250 },
+      { "id": "lich", "name": "Lich King", "emoji": "☠️", "hp": 450, "atk": 90, "def": 35, "xp": 300, "koin": 270 }
+    ],
+    "A": [
+      { "id": "demon_lord", "name": "Demon Lord", "emoji": "😈", "hp": 1000, "atk": 150, "def": 80, "xp": 600, "koin": 500 },
+      { "id": "ancient_dragon", "name": "Ancient Dragon", "emoji": "🌟", "hp": 1200, "atk": 130, "def": 100, "xp": 650, "koin": 550 }
+    ],
+    "boss": [
+      { "id": "goblin_king", "name": "Goblin King", "emoji": "👑", "rank": "F", "hp": 120, "atk": 20, "def": 10, "xp": 80, "koin": 60, "drop": "goblin_crown" },
+      { "id": "orc_warchief", "name": "Orc Warchief", "emoji": "⚔️", "rank": "E", "hp": 250, "atk": 40, "def": 20, "xp": 160, "koin": 130, "drop": "orc_axe" },
+      { "id": "stone_titan", "name": "Stone Titan", "emoji": "🏔️", "rank": "D", "hp": 500, "atk": 60, "def": 50, "xp": 300, "koin": 250, "drop": "titan_core" },
+      { "id": "shadow_king", "name": "Shadow King", "emoji": "🌑", "rank": "C", "hp": 800, "atk": 100, "def": 60, "xp": 500, "koin": 420, "drop": "shadow_crown" },
+      { "id": "demon_general", "name": "Demon General", "emoji": "👿", "rank": "B", "hp": 1500, "atk": 180, "def": 90, "xp": 800, "koin": 700, "drop": "demon_blade" }
+    ]
+  }
+}

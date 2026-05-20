@@ -1,0 +1,40 @@
+{
+  "_info": "Mutsumi MD RPG — Items Database | Isekai no Tobira",
+  "consumables": {
+    "potion_small": { "name": "Small Potion", "emoji": "🧪", "desc": "Pulihkan 50 HP", "heal": 50, "price": 30 },
+    "potion_mid": { "name": "Mid Potion", "emoji": "💊", "desc": "Pulihkan 150 HP", "heal": 150, "price": 80 },
+    "potion_large": { "name": "Large Potion", "emoji": "🍶", "desc": "Pulihkan 300 HP", "heal": 300, "price": 150 },
+    "elixir": { "name": "Elixir", "emoji": "✨", "desc": "Pulihkan HP penuh", "heal": 9999, "price": 500 },
+    "antidote": { "name": "Antidote", "emoji": "💉", "desc": "Hilangkan status racun", "price": 40 }
+  },
+  "equipment": {
+    "weapons": {
+      "iron_sword": { "name": "Iron Sword", "emoji": "⚔️", "atk": 10, "price": 100, "class": ["warrior", "knight"] },
+      "magic_staff": { "name": "Magic Staff", "emoji": "🪄", "int": 15, "price": 120, "class": ["mage", "healer"] },
+      "hunters_bow": { "name": "Hunter's Bow", "emoji": "🏹", "atk": 12, "agi": 5, "price": 110, "class": ["archer"] },
+      "shadow_dagger": { "name": "Shadow Dagger", "emoji": "🗡️", "atk": 8, "crit": 15, "price": 130, "class": ["assassin"] },
+      "holy_mace": { "name": "Holy Mace", "emoji": "🔨", "atk": 8, "int": 8, "price": 115, "class": ["healer", "knight"] },
+      "steel_sword": { "name": "Steel Sword", "emoji": "🗡️", "atk": 25, "price": 300, "class": ["warrior", "knight"] },
+      "dragon_blade": { "name": "Dragon Blade", "emoji": "🔥", "atk": 60, "price": 1000, "class": ["warrior"] },
+      "demon_blade": { "name": "Demon Blade", "emoji": "😈", "atk": 80, "crit": 20, "price": 2000, "class": ["warrior", "assassin"] }
+    },
+    "armor": {
+      "leather_armor": { "name": "Leather Armor", "emoji": "🥋", "def": 8, "price": 80 },
+      "iron_armor": { "name": "Iron Armor", "emoji": "🛡️", "def": 20, "price": 200 },
+      "mage_robe": { "name": "Mage Robe", "emoji": "👘", "def": 5, "int": 10, "price": 150 },
+      "dragon_scale": { "name": "Dragon Scale Armor", "emoji": "🐉", "def": 50, "price": 1500 }
+    },
+    "accessory": {
+      "ring_power": { "name": "Ring of Power", "emoji": "💍", "atk": 5, "price": 200 },
+      "amulet_hp": { "name": "HP Amulet", "emoji": "📿", "hp": 100, "price": 180 },
+      "crit_stone": { "name": "Critical Stone", "emoji": "💎", "crit": 10, "price": 250 }
+    }
+  },
+  "drops": {
+    "goblin_crown": { "name": "Goblin Crown", "emoji": "👑", "desc": "Mahkota Raja Goblin", "sell": 50 },
+    "orc_axe": { "name": "Orc Axe", "emoji": "🪓", "desc": "Kapak Orc Warchief", "sell": 120 },
+    "titan_core": { "name": "Titan Core", "emoji": "🔮", "desc": "Inti kekuatan Stone Titan", "sell": 280 },
+    "shadow_crown": { "name": "Shadow Crown", "emoji": "🌑", "desc": "Mahkota Shadow King", "sell": 450 },
+    "demon_blade": { "name": "Demon Blade", "emoji": "😈", "desc": "Pedang Demon General", "sell": 800, "equip": true }
+  }
+}

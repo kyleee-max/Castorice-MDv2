@@ -1,0 +1,30 @@
+{
+  "_info": "Mutsumi MD RPG — Ores Database | Isekai no Tobira",
+  "ores": {
+    "stone": { "name": "Stone", "emoji": "🪨", "rank": "F", "staminaCost": 10, "dropRate": 0.95, "guildPoint": 1, "sellPrice": 5 },
+    "coal": { "name": "Coal", "emoji": "🖤", "rank": "F", "staminaCost": 10, "dropRate": 0.80, "guildPoint": 2, "sellPrice": 8 },
+    "iron": { "name": "Iron Ore", "emoji": "⚙️", "rank": "E", "staminaCost": 15, "dropRate": 0.75, "guildPoint": 5, "sellPrice": 15 },
+    "copper": { "name": "Copper Ore", "emoji": "🟤", "rank": "E", "staminaCost": 15, "dropRate": 0.70, "guildPoint": 6, "sellPrice": 18 },
+    "diamond": { "name": "Diamond", "emoji": "💎", "rank": "D", "staminaCost": 20, "dropRate": 0.40, "guildPoint": 20, "sellPrice": 80 },
+    "mithril": { "name": "Mithril", "emoji": "🔵", "rank": "D", "staminaCost": 20, "dropRate": 0.35, "guildPoint": 25, "sellPrice": 100 },
+    "orichalcum": { "name": "Orichalcum", "emoji": "💜", "rank": "C", "staminaCost": 25, "dropRate": 0.25, "guildPoint": 50, "sellPrice": 200 },
+    "adamantite": { "name": "Adamantite", "emoji": "⭐", "rank": "B", "staminaCost": 30, "dropRate": 0.15, "guildPoint": 100, "sellPrice": 400 },
+    "orihalcon": { "name": "Orihalcon", "emoji": "✨", "rank": "A", "staminaCost": 40, "dropRate": 0.05, "guildPoint": 250, "sellPrice": 1000 }
+  },
+  "areas": {
+    "F": { "name": "Beginner's Cave", "emoji": "🕳️", "ores": ["stone", "coal"], "reqRank": "F" },
+    "E": { "name": "Iron Mine", "emoji": "⛏️", "ores": ["stone", "coal", "iron", "copper"], "reqRank": "E" },
+    "D": { "name": "Crystal Cavern", "emoji": "💠", "ores": ["iron", "copper", "diamond", "mithril"], "reqRank": "D" },
+    "C": { "name": "Ancient Ruins", "emoji": "🏛️", "ores": ["mithril", "diamond", "orichalcum"], "reqRank": "C" },
+    "B": { "name": "Dragon's Lair", "emoji": "🐉", "ores": ["orichalcum", "adamantite"], "reqRank": "B" },
+    "A": { "name": "Heaven's Gate", "emoji": "🌟", "ores": ["adamantite", "orihalcon"], "reqRank": "A" }
+  },
+  "craftRecipes": {
+    "iron_sword": { "name": "Iron Sword", "emoji": "⚔️", "materials": { "iron": 5 }, "result": "iron_sword" },
+    "steel_sword": { "name": "Steel Sword", "emoji": "🗡️", "materials": { "iron": 10, "coal": 5 }, "result": "steel_sword" },
+    "mithril_armor": { "name": "Mithril Armor", "emoji": "🛡️", "materials": { "mithril": 8, "iron": 4 }, "result": "mithril_armor" },
+    "diamond_ring": { "name": "Diamond Ring", "emoji": "💍", "materials": { "diamond": 3, "copper": 2 }, "result": "diamond_ring" },
+    "dragon_blade": { "name": "Dragon Blade", "emoji": "🔥", "materials": { "adamantite": 5, "orichalcum": 3 }, "result": "dragon_blade" },
+    "orihalcon_set": { "name": "Orihalcon Full Set", "emoji": "✨", "materials": { "orihalcon": 10, "adamantite": 5 }, "result": "orihalcon_armor" }
+  }
+}

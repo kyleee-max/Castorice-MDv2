@@ -1,0 +1,24 @@
+{
+  "_info": "Mutsumi MD Mining DB",
+  "users": {
+    "628386859765@s.whatsapp.net": {
+      "stamina": 80,
+      "lastStaminaUpdate": 1778301080073,
+      "guildPoint": 0,
+      "guildRank": "F",
+      "currentQuest": "F_1",
+      "questProgress": {
+        "F_1": {
+          "stone": 2
+        }
+      },
+      "ores": {
+        "coal": 2,
+        "stone": 2
+      },
+      "totalMined": 4,
+      "title": null,
+      "createdAt": 1778046256558
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "_info": "Mutsumi MD RPG Database",
+  "characters": {
+    "628386859765@s.whatsapp.net": {
+      "class": "assassin",
+      "hp": 89,
+      "maxHp": 91,
+      "atk": 18,
+      "def": 5,
+      "int": 8,
+      "agi": 20,
+      "crit": 30,
+      "floor": 5,
+      "inventory": [],
+      "equipment": {
+        "weapon": null,
+        "armor": null,
+        "accessory": null
+      },
+      "inDungeon": false,
+      "dungeonMonster": null,
+      "createdAt": 1778015682944
+    },
+    "6283113032309@s.whatsapp.net": {
+      "class": "knight",
+      "hp": 201,
+      "maxHp": 201,
+      "atk": 12,
+      "def": 30,
+      "int": 5,
+      "agi": 5,
+      "crit": 5,
+      "floor": 1,
+      "inventory": [],
+      "equipment": {
+        "weapon": null,
+        "armor": null,
+        "accessory": null
+      },
+      "inDungeon": false,
+      "dungeonMonster": null,
+      "createdAt": 1778015520347
+    },
+    "6285781270038@s.whatsapp.net": {
+      "class": "warrior",
+      "hp": 150,
+      "maxHp": 151,
+      "atk": 20,
+      "def": 15,
+      "int": 5,
+      "agi": 8,
+      "crit": 8,
+      "floor": 11,
+      "inventory": [],
+      "equipment": {
+        "weapon": null,
+        "armor": null,
+        "accessory": null
+      },
+      "inDungeon": false,
+      "dungeonMonster": null,
+      "createdAt": 1778032357972
+    }
+  }
+}

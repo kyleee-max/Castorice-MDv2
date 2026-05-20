@@ -1,0 +1,125 @@
+{
+  "_info": "Mutsumi MD RPG — Story Quests | Isekai no Tobira",
+  "quests": {
+    "F_1": {
+      "id": "F_1", "rank": "F", "order": 1,
+      "title": "Awal Petualangan",
+      "story": "Kamu baru tiba di dunia Isekai no Tobira. Guild master menyambutmu dengan tugas pertama...",
+      "objectives": { "mine": { "stone": 5 } },
+      "reward": { "koin": 50, "xp": 30, "guildPoint": 10 },
+      "next": "F_2"
+    },
+    "F_2": {
+      "id": "F_2", "rank": "F", "order": 2,
+      "title": "Bahan Bakar Guild",
+      "story": "Guild butuh batu bara untuk tungku pandai besi. Kumpulkan coal dari gua pemula!",
+      "objectives": { "mine": { "coal": 8 } },
+      "reward": { "koin": 80, "xp": 50, "guildPoint": 15 },
+      "next": "F_3"
+    },
+    "F_3": {
+      "id": "F_3", "rank": "F", "order": 3,
+      "title": "Ujian Pertama",
+      "story": "Sebelum naik ke rank E, buktikan kemampuanmu melawan monster lemah di gua!",
+      "objectives": { "kill": { "slime": 3, "goblin": 2 } },
+      "reward": { "koin": 120, "xp": 80, "guildPoint": 20, "rankUp": "E" },
+      "next": "E_1"
+    },
+    "E_1": {
+      "id": "E_1", "rank": "E", "order": 1,
+      "title": "Tambang Besi",
+      "story": "Guild mendapat kontrak dari pandai besi kota. Mereka butuh iron ore dalam jumlah besar!",
+      "objectives": { "mine": { "iron": 10 } },
+      "reward": { "koin": 200, "xp": 100, "guildPoint": 30 },
+      "next": "E_2"
+    },
+    "E_2": {
+      "id": "E_2", "rank": "E", "order": 2,
+      "title": "Ancaman Orc",
+      "story": "Kawanan orc menyerang jalur tambang! Usir mereka sebelum tambang ditutup paksa.",
+      "objectives": { "kill": { "orc": 3, "wolf": 2 } },
+      "reward": { "koin": 250, "xp": 150, "guildPoint": 40 },
+      "next": "E_3"
+    },
+    "E_3": {
+      "id": "E_3", "rank": "E", "order": 3,
+      "title": "Raja Goblin Muncul",
+      "story": "Goblin King mengklaim gua pemula sebagai wilayahnya! Kalahkan dia untuk melindungi rookie adventurer.",
+      "objectives": { "bosskill": { "goblin_king": 1 } },
+      "reward": { "koin": 400, "xp": 200, "guildPoint": 60, "rankUp": "D" },
+      "next": "D_1"
+    },
+    "D_1": {
+      "id": "D_1", "rank": "D", "order": 1,
+      "title": "Kristal Misterius",
+      "story": "Ilmuwan guild menemukan batu kristal aneh di Crystal Cavern. Kumpulkan diamond untuk diteliti!",
+      "objectives": { "mine": { "diamond": 5, "mithril": 3 } },
+      "reward": { "koin": 500, "xp": 300, "guildPoint": 100 },
+      "next": "D_2"
+    },
+    "D_2": {
+      "id": "D_2", "rank": "D", "order": 2,
+      "title": "Penyihir Gelap",
+      "story": "Seorang penyihir gelap mencuri mithril dari gudang guild! Kejar dan kalahkan dia!",
+      "objectives": { "bosskill": { "stone_titan": 1 } },
+      "reward": { "koin": 700, "xp": 400, "guildPoint": 150 },
+      "next": "D_3"
+    },
+    "D_3": {
+      "id": "D_3", "rank": "D", "order": 3,
+      "title": "Kutukan Kristal",
+      "story": "Crystal Cavern terkena kutukan! Monster bermutasi jadi lebih kuat. Bersihkan area tersebut!",
+      "objectives": { "kill": { "golem": 3, "mermaid": 2 } },
+      "reward": { "koin": 800, "xp": 500, "guildPoint": 200, "rankUp": "C" },
+      "next": "C_1"
+    },
+    "C_1": {
+      "id": "C_1", "rank": "C", "order": 1,
+      "title": "Reruntuhan Kuno",
+      "story": "Peta kuno menunjukkan deposit orichalcum di Ancient Ruins. Tapi tempat itu berbahaya...",
+      "objectives": { "mine": { "orichalcum": 5 } },
+      "reward": { "koin": 1200, "xp": 700, "guildPoint": 300 },
+      "next": "C_2"
+    },
+    "C_2": {
+      "id": "C_2", "rank": "C", "order": 2,
+      "title": "Raja Bayangan",
+      "story": "Shadow King bangkit dari reruntuhan kuno dan mengancam kota! Guild mengandalkanmu.",
+      "objectives": { "bosskill": { "shadow_king": 1 } },
+      "reward": { "koin": 2000, "xp": 1000, "guildPoint": 500, "rankUp": "B" },
+      "next": "B_1"
+    },
+    "B_1": {
+      "id": "B_1", "rank": "B", "order": 1,
+      "title": "Sarang Naga",
+      "story": "Dragon's Lair menyimpan adamantite paling murni di dunia. Tapi sang naga menjaganya dengan nyawanya.",
+      "objectives": { "mine": { "adamantite": 5 }, "kill": { "dragon": 1 } },
+      "reward": { "koin": 3000, "xp": 1500, "guildPoint": 800 },
+      "next": "B_2"
+    },
+    "B_2": {
+      "id": "B_2", "rank": "B", "order": 2,
+      "title": "Jenderal Iblis",
+      "story": "Pasukan iblis menyerbu dari dimensi lain! Jenderal iblis memimpin invasi. Hentikan mereka!",
+      "objectives": { "bosskill": { "demon_general": 1 } },
+      "reward": { "koin": 5000, "xp": 2000, "guildPoint": 1200, "rankUp": "A" },
+      "next": "A_1"
+    },
+    "A_1": {
+      "id": "A_1", "rank": "A", "order": 1,
+      "title": "Gerbang Surga",
+      "story": "Heaven's Gate terbuka hanya bagi yang terpilih. Kumpulkan orihalcon — bahan paling langka di dunia ini.",
+      "objectives": { "mine": { "orihalcon": 3 } },
+      "reward": { "koin": 8000, "xp": 3000, "guildPoint": 2000 },
+      "next": "A_2"
+    },
+    "A_2": {
+      "id": "A_2", "rank": "A", "order": 2,
+      "title": "Raja Iblis — Pertarungan Terakhir",
+      "story": "Raja Iblis sendiri turun ke dunia manusia. Ini pertarungan terakhir — nasib Isekai no Tobira ada di tanganmu!",
+      "objectives": { "bosskill": { "demon_lord": 1 } },
+      "reward": { "koin": 15000, "xp": 5000, "guildPoint": 5000, "title": "🌸 Pahlawan Isekai" },
+      "next": null
+    }
+  }
+}
