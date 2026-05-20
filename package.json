@@ -1,7 +1,7 @@
 {
   "name": "castorise",
-  "version": "1.0.0",
-  "description": "Base Bot WhatsApp By Kael",
+  "version": "2.0.0",
+  "description": " Bot WhatsApp By Kael",
   "main": "index_castorice.js",
   "type": "commonjs",
   "scripts": {
