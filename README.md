@@ -18,9 +18,8 @@ WhatsApp Bot Multi-Feature berbasis Baileys
 ![Version](https://img.shields.io/badge/Version-Free-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-Custom-green?style=flat-square)
 ![Author](https://img.shields.io/badge/Author-KaelSenpai-purple?style=flat-square)
-![Naileys Banner]([https://files.catbox.moe/4flt15.jpg](https://raw.githubusercontent.com/kyleee-max/mutsumi-file/main/uploads/1779033636326.jpeg))
+[!Castorice Banner]([https://files.catbox.moe/4flt15.jpg](https://raw.githubusercontent.com/kyleee-max/mutsumi-file/main/uploads/1779033636326.jpeg))
 </div>
-
 ---
 
 ## 📌 Tentang
