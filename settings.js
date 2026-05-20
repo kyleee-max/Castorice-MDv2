@@ -12,10 +12,10 @@ const chalk = require("chalk")
 // Settingan Bot
 global.owner = "Kael's"
 global.bot = "Castorice MD"
-global.nomorown = "628386859765"   // Nomor Owner
+global.nomorown = "62xxx"   // Nomor Owner
 global.nomorbor = "62xxxx"
-global.nomorauthor = "628386859765" // Nomor Author
-global.version = "1.0"
+global.nomorauthor = "62xxxxx" // Nomor Author
+global.version = "2.0"
 
 // Set thumbnail Bot
 global.thumb = {
