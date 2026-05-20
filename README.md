@@ -95,7 +95,7 @@ Versi ini merupakan **FREE VERSION** yang dapat digunakan, dimodifikasi, dan dib
 ## Install
 
 ```bash
-git clone https://github.com/yourusername/Castorice-MD
+git clone https://github.com/kyleee-max/Castorice-MD.git
 cd Castorice-MD
 npm install
 ```
